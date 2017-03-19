@@ -14,3 +14,5 @@ wget http://kartat.kapsi.fi/files/maastotietokanta/kaikki/etrs89/gml/M4/M43/M431
 unzip M4313L_mtk.zip
 ogr2ogr -append -f "PostgreSQL" PG:"host=localhost user=osm password=osm dbname=osm" M4313L.xml
 ```
+
+Update osm data: ```imposm3/imposm3 run -config config.json```
