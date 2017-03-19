@@ -1,0 +1,7 @@
+{
+    "cachedir": "imposm_cache",
+    "connection": "postgis://osm:osm@127.0.0.1/osm",
+    "mapping": "mapping.yml",
+    "diffdir": "diffs",
+    "limitto": "fin.geojson"
+}
